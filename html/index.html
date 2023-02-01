@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body::-webkit-scrollbar{
+            display: none;
+        }
+
+        body{
+            background-color: black;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        .link #menu{
+            list-style-type: none;
+        }
+
+        .link #menu li{
+            float: left;
+        }
+
+        .link #menu li a{
+            position: relative;
+            top: 10px;
+            margin-left: 25px;
+            text-decoration: none;
+            color: white;
+            font-family: sans-serif;
+            font-size: 24px;
+            transition: .5s;
+        }
+
+        .link #menu li a:hover{
+            color: crimson;
+        }
+
+        .are_one{
+            position: absolute;
+            background-color: gray;
+            height: 500px;
+            width: 800px;
+            margin-top: 70px;
+            padding: 10px 10px 10px 20px;
+        }
+
+        .are_one img{
+            filter: blur(2px);
+            transition: .4s;
+        }
+
+        .are_one img:hover{
+            filter: blur(0px);
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px 5px black;
+        }
+
+        .are_one #list{
+            margin-left: 15px;
+        }
+
+        .are_two{
+            position: absolute;
+            background-color: gray;
+            height: 500px;
+            width: 800px;
+            margin-top: 720px;
+            padding: 10px 10px 10px 20px;
+        }
+
+        .are_two img{
+            filter: blur(2px);
+            transition: .4s;
+        }
+
+        .are_two img:hover{
+            filter: blur(0px);
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px 5px black;
+        }
+
+        .are_two #list{
+            margin-left: 15px;
+        }
+
+        .are_three{
+            position: absolute;
+            background-color: gray;
+            height: 500px;
+            width: 800px;
+            margin-top: 1420px;
+            padding: 10px 10px 10px 20px;
+        }
+
+        .are_three img{
+            filter: blur(2px);
+            transition: .4s;
+        }
+
+        .are_three img:hover{
+            filter: blur(0px);
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px 5px black;
+        }
+
+        .are_three #list{
+            margin-left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="link">
+        <ul id="menu">
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="about.html">Hakkımızda</a></li>
+            <li><a href="contact.html">İletişim</a></li>
+        </ul>
+    </div>
+
+
+    <div class="are_one">
+        <img src="../media/src/foto1.jpg" alt="FOTO-ONE" height="250" width="500">
+
+        <p>Lorem ipsum dolor sit amet.</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p><br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus.</p><br>
+
+        <ol id="list" type="1">
+            <li>Lorem.</li>
+            <ul type="square" style="margin-left: 20px;">
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Iusto iste beatae architecto.</li>
+                <li>Reiciendis dignissimos ipsa illum.</li>
+                <li>Tenetur consectetur nemo deleniti!</li>
+            </ul>
+        </ol>
+    </div>
+
+    <hr style="color: white; position: absolute; margin-top: 650px; width: 100%;">
+
+    <div class="are_two">
+        <img src="../media/src/cyber.jpg" alt="FOTO-TWO" height="250" width="500">
+
+        <p>Lorem ipsum dolor sit amet.</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p><br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus.</p><br>
+
+        <ol id="list" type="1" start="2">
+            <li>Lorem.</li>
+            <ul type="square" style="margin-left: 20px;">
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Iusto iste beatae architecto.</li>
+                <li>Reiciendis dignissimos ipsa illum.</li>
+                <li>Tenetur consectetur nemo deleniti!</li>
+            </ul>
+        </ol>
+    </div>
+
+    <hr style="color: white; position: absolute; margin-top: 1330px; width: 100%;">
+
+    <div class="are_three">
+        <img src="../media/src/frontend.jpg" alt="FOTO-THREE" height="250" width="500">
+
+        <p>Lorem ipsum dolor sit amet.</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p><br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus.</p><br>
+
+        <ol id="list" type="1" start="3">
+            <li>Lorem.</li>
+            <ul type="square" style="margin-left: 20px;">
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Iusto iste beatae architecto.</li>
+                <li>Reiciendis dignissimos ipsa illum.</li>
+                <li>Tenetur consectetur nemo deleniti!</li>
+            </ul>
+        </ol>
+    </div>
+</body>
+</html>
